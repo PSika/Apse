@@ -1,0 +1,63 @@
+<div class="pages">
+    <div data-page="projects" class="page no-toolbar no-navbar">
+        <div class="page-content">
+
+            <div class="navbarpages">
+                <div class="navbar_home_link"><a href="index-2.html"><img src="images/icons/white/home.png" alt="" title="" /></a></div>
+                <div class="navbar_page_center">Eventos</div>
+                <div class="menu_open_icon_white"><a href="#" class="open-panel"><img src="images/menu_open.png" alt="" title="" /></a></div>
+            </div>
+            <div id="pages_maincontent" style="background-image:url('images/04 .png'); background-size:cover">
+
+                <h2 class="page_subtitle"></h2>
+                <h2 id="Note"></h2>
+                <div class="contactform">
+                    <form class="cmxform" id="ContactForm" method="post" action="#">
+                        <label>Tema do Evento:</label>
+                        <input type="text" name="Desc_Evento" id="Desc_Evento" value="" class="form_input required" />
+                        <label>Departamento:</label>
+                        <select name="Departamento" id="Departamento" class="form_input required">
+                            <option value="1" >Aventureiros</option>
+                            <option value="1">Desbravadores</option>
+                            <option value="1">ADRA</option>
+                            <option value="1">Escola Sabatina</option>
+                            <option value="1">Min. Pessoal</option>                            
+                        </select>
+                        <label>Quando Ocorreu?</label>
+                        <textarea name="Data_Evento" id="Data_Evento" value="" class="form_textarea textarea required" rows="" cols=""></textarea>
+                        <label>O que Aconteceu?</label>
+                        <textarea name="OqueAconteceu" id="OqueAconteceu" value="" class="form_textarea textarea required" rows="" cols=""></textarea>
+                        <label>como Aconteceu?</label>
+                        <textarea name="ComoAconteceu" id="ComoAconteceu" value="" class="form_textarea textarea required" rows="" cols=""></textarea>
+                        <label>Mande algumas Fotos:</label>
+                        
+                        <ul id="photoslist" class="photo_gallery_12">
+                            <li><a rel="gallery-3" href="images/photos/palestrante.gif" title="Palestrante" class="swipebox"><img src="images/icons/white/00.png" alt="image" /></a></li>
+                            <li><a rel="gallery-3" href="images/photos/geral.jpg" title="Geral" class="swipebox"><img src="images/icons/white/photos2.png" alt="image" /></a></li>
+                            <li><a rel="gallery-3" href="images/photos/palestrante.gif" title="Palestrante" class="swipebox"><img src="images/icons/white/00.png" alt="image" /></a></li>
+                            <li><a rel="gallery-3" href="images/photos/detalhes.jpg" title="Detalhes" class="swipebox"><img src="images/icons/white/photos2.png" alt="image" /></a></li>
+                            <li><a rel="gallery-3" href="images/photos/palestrante.gif" title="Palestrante" class="swipebox"><img src="images/icons/white/00.png" alt="image" /></a></li>
+                            <li><a rel="gallery-3" href="images/photos/geral.jpg" title="Geral" class="swipebox"><img src="images/icons/white/photos2.png" alt="image" /></a></li>
+                            <li><a rel="gallery-3" href="images/photos/palestrante.gif" title="Palestrante" class="swipebox"><img src="images/icons/white/00.png" alt="image" /></a></li>
+                            <li><a rel="gallery-3" href="images/photos/detalhes.jpg" title="Detalhes" class="swipebox"><img src="images/icons/white/photos.png" alt="image" /></a></li>
+
+                                <div class="clearleft"></div>
+                        </ul>
+
+                        <input type="button" name="submit" onclick="SalvaEvento();" class="form_submit" id="submit" value="Enviar" />
+                        <input class="" type="hidden" name="to" value="youremail@yourwebsite.com" />
+                        <input class="" type="hidden" name="subject" value="Contacf form message" />
+                        <label id="loader" style="display:none;"><img src="images/loader.gif" alt="Loading..." id="LoadingGraphic" /></label>
+                    </form>
+                    
+                </div>
+
+                
+
+                <div class="clear"></div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
